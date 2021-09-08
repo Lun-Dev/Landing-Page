@@ -15,23 +15,19 @@ body {
     border: 1px solid gold;
 }
 
-h1 {
-    font-size: 48px;
-    font-weight: bold;
-    color: #F9FAF8;
-}
-
 /* Navbar Part */
 
 .navbar {
     display: flex;
     color: #F9FAF8;
     background-color: #1F2937;
+    padding: 30px;
 }
 
 .header-logo {
     color: #F9FAF8;
     font-size: 24px;
+    font-family: 'Roboto', arial;
 }
 
 .header-link {
@@ -39,10 +35,12 @@ h1 {
     margin-left: auto;   
 }
 
-.header-link a:link {
+.header-link a {
     text-decoration: none;
     color: #E5E7EB;
     font-size: 18px;
+    padding: 10px;
+    font-family: 'Roboto', arial;
 }
 
 /* Hero Part */
@@ -62,12 +60,19 @@ h1 {
     flex-direction: column;
     border: 1px solid gold;
     text-align: left;
+    margin-right: 50px;
 }
 
-.hero-image img {
-    width: 500px;
-    height: 180px;
-    border: 1px solid gold;
+.hero-cta p {
+    font-family: 'Roboto', arial;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+    margin: 0;
+    font-family: 'Roboto', arial;
 }
 
 .hero button {
@@ -79,9 +84,15 @@ h1 {
     padding: 10px;
     border-radius: 8px;
     color: #fff;
-    font-family: "Google Sans", arial;
+    font-family: 'Roboto', arial;
     text-decoration: none;
     font-weight: bold;
+}
+
+.hero-image img {
+    width: 500px;
+    height: 350px;
+    border: 1px solid gold;
 }
 
 /* Content Part */
@@ -121,4 +132,12 @@ h1 {
     font-color: #1F2937;
     font-style: italic;
     font-weight: lighter;
+    font-family: 'Roboto', arial;
+}
+
+.quote b {
+    padding-bottom: 20px;
+    padding-right: 10px;
+    font-family: 'Roboto', arial;
+    text-align: right;
 }
