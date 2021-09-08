@@ -3,16 +3,12 @@ body {
     padding: 0;
     margin: 0;
     text-align: center;
+    font-family: 'Roboto', arial;
 }
 
 .container {
     display: flex;
     flex-direction: column;
-    border: 1px solid black;
-}
-
-.bx {
-    border: 1px solid gold;
 }
 
 /* Navbar Part */
@@ -21,18 +17,20 @@ body {
     display: flex;
     color: #F9FAF8;
     background-color: #1F2937;
-    padding: 30px;
+    padding: 20px 0px 20px 100px;
+    align-items: center;
 }
 
-.header-logo {
-    color: #F9FAF8;
-    font-size: 24px;
-    font-family: 'Roboto', arial;
+.header-logo img {
+    width: 84px;
+    height: 84px;
+    margin-right: auto;
 }
 
 .header-link {
     display: flex;
-    margin-left: auto;   
+    margin-left: auto;
+    padding: 0px 100px 0px 0px;  
 }
 
 .header-link a {
@@ -58,13 +56,13 @@ body {
     flex-basis: 400px;
     display: flex;
     flex-direction: column;
-    border: 1px solid gold;
     text-align: left;
     margin-right: 50px;
 }
 
 .hero-cta p {
     font-family: 'Roboto', arial;
+    opacity: 0.7;
 }
 
 h1 {
@@ -92,7 +90,6 @@ h1 {
 .hero-image img {
     width: 500px;
     height: 350px;
-    border: 1px solid gold;
 }
 
 /* Content Part */
@@ -123,13 +120,12 @@ h1 {
     display: flex;
     flex-direction: column;
     background-color: #E5E7EB;
-    border: 1px solid gold;
-    padding: 0 50px;
+    padding: 0 200px;
 }
 
 .quote p {
     font-size: 36px;
-    font-color: #1F2937;
+    color: #1F2937;
     font-style: italic;
     font-weight: lighter;
     font-family: 'Roboto', arial;
@@ -140,4 +136,54 @@ h1 {
     padding-right: 10px;
     font-family: 'Roboto', arial;
     text-align: right;
+}
+
+/* Sign Up Part */
+.sign-up {
+    background-color: #3882F6 ;
+    margin: 50px 200px;
+    padding: 10px 80px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    border-color: none;
+}
+
+.sign-item {
+    flex: 1;
+}
+
+.signs-text {
+    text-align: left;
+}
+
+.signs-text p {
+    color: #fff;
+    opacity: 0.7;
+    margin: 5px 30px 30px 50px;
+}
+
+h3 {
+    color: #fff;
+    font-family: 'Roboto', arial;
+    padding: 0;
+    margin: 30px 0px 0px 50px;
+}
+
+.signs-button button {
+    color: #fff;
+    font-family: 'Roboto', arial;
+    border-color: #fff;
+    border-radius: 8px;
+    background-color: #3882F6;
+    padding: 5px 25px;
+    font-size: 15px;
+}
+
+/* Footer */
+
+.footer {
+    background-color: #1F2937;
+    color: #fff;
+    font-family: 'Roboto', arial;
 }
