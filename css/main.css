@@ -1,0 +1,97 @@
+body {
+    background-color: #FFFFFF;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+}
+
+.bx {
+    border: 1px solid gold;
+}
+
+/* Navbar Part */
+
+.navbar {
+    display: flex;
+    color: #F9FAF8;
+    background-color: #1F2937;
+}
+
+.header-logo {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+.header-link {
+    display: flex;
+    margin-left: auto;   
+}
+
+.header-link a:link {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+/* Hero Part */
+
+.hero {
+    display: flex;
+    color: #F9FAF8;
+    background-color: #1F2937;
+    align-items: center;
+    padding: 40px;
+    flex: 1;
+}
+
+.hero-cta {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid gold;
+}
+
+.hero-image img {
+    width: 300px;
+    height: 200px;
+    border: 1px solid gold;
+}
+
+/* Content Part */
+
+.content {
+    align-items: center;
+}
+
+.content-info {
+    display: flex;
+    border: 1px solid gold;
+    justify-content: center;
+}
+
+.content-info img {
+    width: 128px;
+    height: 128px;
+}
+
+/* Quotation Part */
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    border: 1px solid gold;
+    padding: 0 50px;
+}
+
+.quote p {
+    font-size: 36px;
+    font-color: #1F2937;
+    font-style: italic;
+    font-weight: lighter;
+}
